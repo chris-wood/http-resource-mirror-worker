@@ -1,0 +1,12 @@
+name = "test-mirror"
+account_id = "022362f27de5264a50ce60cb23293c9f"
+compatibility_date = "2022-04-12"
+main = "src/index.js"
+node_compat = true
+
+# To deploy run: $ wrangler publish
+workers_dev = true
+
+kv_namespaces = [
+  { binding = "MIRROR", id = "5815b2fefef440c993ecee901f2d731f" }
+]

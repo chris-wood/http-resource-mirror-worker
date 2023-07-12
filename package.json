@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "name": "test-mirror",
+  "version": "1.0.0",
+  "description": "Demo HTTP resource mirror",
+  "main": "dist/worker.js",
+  "scripts": {
+    "build": "webpack -p --progress --colors"
+  },
+  "author": "Chris Wood",
+  "license": "MIT",
+  "dependencies": {
+    "@tusbar/cache-control": "^0.6.1",
+    "base64url": "3.0.1",
+    "bhttp-js": "0.2.2"
+  },
+  "devDependencies": {
+    "webpack": "^4.10.2",
+    "webpack-cli": "^2.1.4"
+  }
+}
