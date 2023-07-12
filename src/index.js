@@ -1,4 +1,3 @@
-const url = require("url");
 import { parse } from "@tusbar/cache-control";
 import { BHttpEncoder } from "bhttp-js";
 
